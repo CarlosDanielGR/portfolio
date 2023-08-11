@@ -1,9 +1,11 @@
-.presentation-content {
-  height: 170px;
-}
 .presentation {
   color: #646cff;
-  position: absolute;
+}
+.presentation-profile {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
 }
 .presentation > span {
   color: #fff;

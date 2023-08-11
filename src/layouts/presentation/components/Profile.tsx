@@ -5,9 +5,9 @@ function Profile() {
   return (
     <div className="profile">
       <h3>
-        I am a passionate developer committed to continuous learning. I enjoy
-        facing challenges and seeking optimal solutions for complex problems,
-        always following the best development practices.
+        Passionate developer committed to continuous learning. I enjoy facing
+        challenges and seeking optimal solutions for complex problems, always
+        following the best development practices.
       </h3>
       <div className="profile-buttons">
         <Button

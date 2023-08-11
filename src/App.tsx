@@ -4,13 +4,10 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <div className="banner"></div>
-      <main className="main">
-        <Navbar />
-        <Presentation />
-      </main>
-    </>
+    <main className="main">
+      <Navbar />
+      <Presentation />
+    </main>
   );
 }
 

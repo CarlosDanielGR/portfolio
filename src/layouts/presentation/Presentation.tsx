@@ -4,10 +4,12 @@ import "./styles/Presentation.css";
 function Presentation() {
   return (
     <>
-      <h1 className="presentation">
-        <span>Full-stack </span>
-        developer
-      </h1>
+      <div className="presentation-content">
+        <h1 className="presentation">
+          <span>Full-stack </span>
+          developer
+        </h1>
+      </div>
       <Hello />
       <Profile />
     </>

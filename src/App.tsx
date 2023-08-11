@@ -5,8 +5,11 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Navbar />
-      <Presentation />
+      <div className="banner"></div>
+      <main className="main">
+        <Navbar />
+        <Presentation />
+      </main>
     </>
   );
 }

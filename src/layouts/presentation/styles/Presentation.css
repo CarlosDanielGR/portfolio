@@ -1,8 +1,13 @@
+.presentation-content {
+  height: 170px;
+}
 .presentation {
+  position: absolute;
+  width: fit-content;
+  margin-top: 3.5rem;
+  border-right: 3px solid #646cff;
   animation: running typing,
     0.5s step-end 0s infinite alternate none running blink;
-  border-right: 3px solid #646cff;
-  width: fit-content;
 }
 .presentation > span {
   color: #646cff;

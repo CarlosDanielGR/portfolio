@@ -1,9 +1,5 @@
-.presentation-content {
-  height: 170px;
-}
 .presentation {
   color: #646cff;
-  position: absolute;
 }
 .presentation > span {
   color: #fff;

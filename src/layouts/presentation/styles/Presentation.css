@@ -1,6 +1,12 @@
 .presentation {
   color: #646cff;
 }
+.presentation-profile {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
 .presentation > span {
   color: #fff;
   margin-top: 3.5rem;

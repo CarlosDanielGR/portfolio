@@ -1,4 +1,4 @@
-import { Hello, Profile } from ".";
+import { Banner, Hello, Profile } from ".";
 import "./styles/Presentation.css";
 
 function Presentation() {
@@ -8,8 +8,13 @@ function Presentation() {
         Full-stack
         <span> developer</span>
       </h1>
-      <Hello />
-      <Profile />
+      <div className="presentation-profile">
+        <div>
+          <Hello />
+          <Profile />
+        </div>
+        <Banner />
+      </div>
     </>
   );
 }

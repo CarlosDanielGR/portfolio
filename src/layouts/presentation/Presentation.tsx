@@ -1,4 +1,4 @@
-import { Hello } from ".";
+import { Hello, Profile } from ".";
 import "./styles/Presentation.css";
 
 function Presentation() {
@@ -9,6 +9,7 @@ function Presentation() {
         developer
       </h1>
       <Hello />
+      <Profile />
     </>
   );
 }

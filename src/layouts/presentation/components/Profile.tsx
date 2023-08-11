@@ -4,11 +4,11 @@ import "./../styles/Profile.css";
 function Profile() {
   return (
     <div className="profile">
-      <p>
+      <h3>
         I am a passionate developer committed to continuous learning. I enjoy
         facing challenges and seeking optimal solutions for complex problems,
         always following the best development practices.
-      </p>
+      </h3>
       <div className="profile-buttons">
         <Button
           variant="outlined"
@@ -17,7 +17,13 @@ function Profile() {
         >
           Contact us
         </Button>
-        <Button variant="contained">Download CV</Button>
+        <Button
+          variant="contained"
+          href="./public/CV_CDGR.pdf"
+          download="CV_CDGR"
+        >
+          Download CV
+        </Button>
       </div>
     </div>
   );

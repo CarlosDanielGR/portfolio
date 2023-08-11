@@ -6,8 +6,8 @@ function Presentation() {
     <>
       <div className="presentation-content">
         <h1 className="presentation">
-          <span>Full-stack </span>
-          developer
+          Full-stack
+          <span> developer</span>
         </h1>
       </div>
       <Hello />

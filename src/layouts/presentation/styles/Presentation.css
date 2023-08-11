@@ -2,16 +2,15 @@
   height: 170px;
 }
 .presentation {
+  color: #646cff;
   position: absolute;
-  width: fit-content;
+}
+.presentation > span {
+  color: #fff;
   margin-top: 3.5rem;
   border-right: 3px solid #646cff;
   animation: running typing,
     0.5s step-end 0s infinite alternate none running blink;
-}
-.presentation > span {
-  color: #646cff;
-  white-space: nowrap;
 }
 @keyframes typing {
   0% {

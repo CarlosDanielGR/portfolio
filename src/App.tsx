@@ -1,5 +1,4 @@
-import { Social } from "./layouts/social";
-import { Presentation } from "./layouts/presentation";
+import { Social, Navbar, Presentation } from "./layouts";
 import "./App.css";
 
 function App() {
@@ -7,6 +6,7 @@ function App() {
     <main className="main">
       <Social />
       <Presentation />
+      <Navbar />
     </main>
   );
 }

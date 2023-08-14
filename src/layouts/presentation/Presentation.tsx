@@ -5,7 +5,7 @@ function Presentation() {
   return (
     <>
       <h1 className="presentation">
-        Full-stack
+        Software
         <span> developer</span>
       </h1>
       <div className="presentation-profile">

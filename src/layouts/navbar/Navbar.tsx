@@ -25,7 +25,7 @@ function Navbar() {
     <ul className="navbar">
       {LINKS.filter((data) => !data.hide).map((links) => (
         <li key={links.id}>
-          <Link link={links} />
+          → <Link link={links} />
         </li>
       ))}
     </ul>

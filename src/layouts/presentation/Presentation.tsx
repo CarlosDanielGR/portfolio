@@ -3,18 +3,10 @@ import "./styles/Presentation.css";
 
 function Presentation() {
   return (
-    <>
-      <h1 className="presentation">
-        Software
-        <span> developer</span>
-      </h1>
-      <div className="presentation-profile">
-        <div>
-          <Hello />
-          <Profile />
-        </div>
-      </div>
-    </>
+    <div className="presentation">
+      <Hello />
+      <Profile />
+    </div>
   );
 }
 export default Presentation;

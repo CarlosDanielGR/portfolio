@@ -5,7 +5,10 @@ function App() {
   return (
     <main className="main">
       <Social />
-      <Presentation />
+      <section className="main-content">
+        <Presentation />
+        <div></div>
+      </section>
       <Navbar />
     </main>
   );

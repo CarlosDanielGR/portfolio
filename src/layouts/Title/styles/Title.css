@@ -1,0 +1,21 @@
+.title {
+  color: #646cff;
+  margin: 0;
+}
+.title > span {
+  color: #fff;
+  margin-top: 3.5rem;
+  border-right: 3px solid #646cff;
+  animation: running typing,
+    0.5s step-end 0s infinite alternate none running blink;
+}
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

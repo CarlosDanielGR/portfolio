@@ -1,3 +1,4 @@
+import { Tags } from ".";
 import "./styles/Employment.css";
 
 function Employment() {
@@ -25,6 +26,7 @@ function Employment() {
         implementation, resolving conflicts, troubleshooting errors, and
         offering knowledge on specific features.
       </p>
+      <Tags />
     </div>
   );
 }

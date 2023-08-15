@@ -1,4 +1,15 @@
+import "./../styles/Tags.css";
+
 function Tags() {
-  return <div>Tags</div>;
+  const TAGS = ["TypeScript", "Angular", "SASS", "HTML"];
+  return (
+    <div className="tag-content">
+      {TAGS.map((tag, index) => (
+        <span className="tag" key={index}>
+          {tag}
+        </span>
+      ))}
+    </div>
+  );
 }
 export default Tags;

@@ -1,4 +1,11 @@
-import { Social, Navbar, Presentation, Title, Project } from "./layouts";
+import {
+  Social,
+  Navbar,
+  Presentation,
+  Title,
+  Project,
+  Employment,
+} from "./layouts";
 import "./App.css";
 
 function App() {
@@ -13,6 +20,7 @@ function App() {
         </section>
         <section className="main-content-right">
           <Project />
+          <Employment />
         </section>
       </article>
     </main>

@@ -13,7 +13,6 @@ function App() {
         </section>
         <section className="main-content-right">
           <Project />
-          <div style={{ height: "150vh" }}></div>
         </section>
       </article>
     </main>

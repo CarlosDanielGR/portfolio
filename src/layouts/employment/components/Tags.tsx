@@ -1,7 +1,7 @@
 import "./../styles/Tags.css";
 
 function Tags() {
-  const TAGS = ["TypeScript", "Angular", "SASS", "HTML"];
+  const TAGS = ["TypeScript", "Angular", "SASS", "HTML", "Rxjs", "Ngrx"];
   return (
     <div className="tag-content">
       {TAGS.map((tag, index) => (

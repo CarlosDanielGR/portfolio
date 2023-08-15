@@ -1,4 +1,4 @@
-import { Banner, Hello, Profile } from ".";
+import { Hello, Profile } from ".";
 import "./styles/Presentation.css";
 
 function Presentation() {
@@ -13,7 +13,6 @@ function Presentation() {
           <Hello />
           <Profile />
         </div>
-        <Banner />
       </div>
     </>
   );

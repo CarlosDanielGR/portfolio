@@ -1,4 +1,4 @@
-import { Social, Navbar, Presentation, Title } from "./layouts";
+import { Social, Navbar, Presentation, Title, Project } from "./layouts";
 import "./App.css";
 
 function App() {
@@ -6,13 +6,16 @@ function App() {
     <main className="main">
       <Social />
       <Title />
-      <section className="main-content">
-        <div className="main-content-left">
+      <article className="main-content">
+        <section className="main-content-left">
           <Presentation />
           <Navbar />
-        </div>
-        <div style={{ height: "150vh" }}></div>
-      </section>
+        </section>
+        <section className="main-content-right">
+          <Project />
+          <div style={{ height: "150vh" }}></div>
+        </section>
+      </article>
     </main>
   );
 }

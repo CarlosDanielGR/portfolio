@@ -1,12 +1,11 @@
 .social {
-  position: sticky;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 1rem;
   margin: 0.5rem 0;
-  top: 1.5rem;
   list-style: none;
+  background-color: #1a1a1a;
 }
 
 .social li {

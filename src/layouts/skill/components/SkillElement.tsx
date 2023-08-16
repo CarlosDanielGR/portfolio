@@ -9,7 +9,7 @@ interface Props {
 function SkillElement({ skill }: Props) {
   return (
     <figure className="skill-element">
-      <Tooltip title={skill.title}>
+      <Tooltip title={skill.title} placement="top">
         <img src={skill.src} alt={skill.alt} />
       </Tooltip>
     </figure>

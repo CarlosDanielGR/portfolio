@@ -2,7 +2,7 @@ import { ProjectList } from ".";
 
 function Project() {
   return (
-    <div id="project">
+    <div id="projects">
       <h4>Projects</h4>
       <p>
         As a developer, I have successfully contributed to various projects. In

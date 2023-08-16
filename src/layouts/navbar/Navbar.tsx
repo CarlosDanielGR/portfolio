@@ -6,18 +6,18 @@ function Navbar() {
   const LINKS: INavLink[] = [
     {
       id: 1,
+      name: "Skills",
+      route: "#skills",
+    },
+    {
+      id: 2,
       name: "Projects",
       route: "#projects",
     },
     {
-      id: 2,
+      id: 3,
       name: "Employment",
       route: "#employment",
-    },
-    {
-      id: 3,
-      name: "Skills",
-      route: "#skills",
     },
   ];
 

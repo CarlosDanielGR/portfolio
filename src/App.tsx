@@ -6,6 +6,7 @@ import {
   Project,
   Employment,
   Skill,
+  Footer,
 } from "./layouts";
 import "./App.css";
 
@@ -25,6 +26,7 @@ function App() {
           <Employment />
         </section>
       </article>
+      <Footer />
     </main>
   );
 }

@@ -39,6 +39,16 @@ export const SKILLS: ISkill[] = [
     title: "CSS",
   },
   {
+    alt: "postgres",
+    src: `${URL_ASSETS}postgres.svg`,
+    title: "Postgres",
+  },
+  {
+    alt: "docker",
+    src: `${URL_ASSETS}docker.svg`,
+    title: "Docker",
+  },
+  {
     alt: "sass",
     src: `${URL_ASSETS}sass.svg`,
     title: "sass",

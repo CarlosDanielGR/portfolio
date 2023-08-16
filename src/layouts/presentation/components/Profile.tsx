@@ -17,11 +17,7 @@ function Profile() {
         >
           Contact us
         </Button>
-        <Button
-          variant="contained"
-          href="./public/CV_CDGR.pdf"
-          download="CV_CDGR"
-        >
+        <Button variant="contained" href="./CV_CDGR.pdf" download="CV_CDGR">
           Download CV
         </Button>
       </div>

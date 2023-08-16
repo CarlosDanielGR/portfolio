@@ -1,5 +1,3 @@
-import { ProjectList } from ".";
-
 function Project() {
   return (
     <div id="projects">
@@ -9,7 +7,6 @@ function Project() {
         some of them, I even initiated the project from its structure
         (archetype). Here is the list of the projects I have worked on.
       </p>
-      <ProjectList />
     </div>
   );
 }

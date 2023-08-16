@@ -5,6 +5,7 @@ import {
   Title,
   Project,
   Employment,
+  Skill,
 } from "./layouts";
 import "./App.css";
 
@@ -19,6 +20,7 @@ function App() {
           <Navbar />
         </section>
         <section className="main-content-right">
+          <Skill />
           <Project />
           <Employment />
         </section>

@@ -8,8 +8,8 @@ function Skill() {
     <div id="skills">
       <h4>Skills</h4>
       <section className="skill-content">
-        {skills.map((skill) => (
-          <SkillElement key={skill.id} skill={skill} />
+        {skills.map((skill, index) => (
+          <SkillElement key={index} skill={skill} />
         ))}
       </section>
     </div>

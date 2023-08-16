@@ -51,7 +51,7 @@ export const SKILLS: ISkill[] = [
   {
     alt: "sass",
     src: `${URL_ASSETS}sass.svg`,
-    title: "sass",
+    title: "Sass",
   },
   {
     alt: "php",

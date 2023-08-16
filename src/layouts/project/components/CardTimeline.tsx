@@ -1,17 +1,17 @@
+import { Project } from "../interfaces/cardTimeline.interface";
 import { Redirect } from "..";
 import "./../styles/CardTimeline.css";
 
-function CardTimeline() {
+interface Props {
+  cardData: Project;
+}
+
+function CardTimeline({ cardData }: Props) {
   return (
     <div className="cardTimeline">
-      <span>2021 - rick-and-morty</span>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eum
-        ipsa soluta eligendi rerum fugiat enim similique repellat, doloremque
-        fugit officia magni sunt accusamus quo autem cupiditate delectus sed
-        aliquid.
-      </p>
-      <Redirect />
+      <span className="cardTimeline-title">{cardData.title}</span>
+      <span>{cardData.content}</span>
+      <Redirect url={cardData.url} />
     </div>
   );
 }

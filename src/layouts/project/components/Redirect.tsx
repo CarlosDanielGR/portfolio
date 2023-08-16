@@ -1,9 +1,13 @@
 import LaunchIcon from "@mui/icons-material/Launch";
 import "./../styles/Redirect.css";
 
-function Redirect() {
+interface Props {
+  url: string;
+}
+
+function Redirect({ url }: Props) {
   return (
-    <a className="redirect" href="" target="_blank">
+    <a className="redirect" href={url} target="_blank">
       View project
       <LaunchIcon />
     </a>

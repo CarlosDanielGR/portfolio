@@ -1,0 +1,11 @@
+.skill-element {
+  padding: 0.5rem 0.5rem 0.2rem;
+  margin: 0;
+  width: fit-content;
+  background-color: #1a1a1a;
+  border-radius: 0.5rem;
+}
+.skill-element > img {
+  width: 40px;
+  height: 40px;
+}

@@ -29,6 +29,11 @@ export const SKILLS: ISkill[] = [
     title: "Reactjs",
   },
   {
+    alt: "ionic",
+    src: `${URL_ASSETS}ionic.svg`,
+    title: "Ionic",
+  },
+  {
     alt: "html",
     src: `${URL_ASSETS}html.svg`,
     title: "HTML",
@@ -37,6 +42,11 @@ export const SKILLS: ISkill[] = [
     alt: "css",
     src: `${URL_ASSETS}css.svg`,
     title: "CSS",
+  },
+  {
+    alt: "mysql",
+    src: `${URL_ASSETS}mysql.svg`,
+    title: "MySQL",
   },
   {
     alt: "postgres",
@@ -72,5 +82,15 @@ export const SKILLS: ISkill[] = [
     alt: "ngrx",
     src: `${URL_ASSETS}ngrx.svg`,
     title: "Ngrx",
+  },
+  {
+    alt: "tailwind",
+    src: `${URL_ASSETS}tailwind.svg`,
+    title: "Tailwind",
+  },
+  {
+    alt: "bootstrap",
+    src: `${URL_ASSETS}bootstrap.svg`,
+    title: "Bootstrap",
   },
 ];

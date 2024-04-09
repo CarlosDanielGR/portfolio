@@ -14,3 +14,9 @@
   color: #bbbbbb;
   font-weight: 500;
 }
+
+.cardTimeline-redirect{
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}

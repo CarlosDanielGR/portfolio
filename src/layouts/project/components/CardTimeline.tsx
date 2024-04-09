@@ -11,7 +11,9 @@ function CardTimeline({ cardData }: Props) {
     <div className="cardTimeline">
       <span className="cardTimeline-title">{cardData.title}</span>
       <span>{cardData.content}</span>
-      <Redirect url={cardData.url} />
+      {cardData.redirects.map((data, index) => (
+        <Redirect redirect={data} key={index} />
+      ))}
     </div>
   );
 }

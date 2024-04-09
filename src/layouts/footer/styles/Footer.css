@@ -6,3 +6,9 @@
   margin-top: 2rem;
   border-top: 1px solid #ffffff75;
 }
+
+.footer-contact{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

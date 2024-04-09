@@ -44,6 +44,11 @@ export const SKILLS: ISkill[] = [
     title: "CSS",
   },
   {
+    alt: "Angular Material",
+    src: `${URL_ASSETS}material.svg`,
+    title: "Angular Material",
+  },
+  {
     alt: "mysql",
     src: `${URL_ASSETS}mysql.svg`,
     title: "MySQL",

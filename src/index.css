@@ -4,8 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #1a1a1a;
+  --cl-primary: #0f90c3;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,6 +19,16 @@ html {
 
 body {
   margin: 0;
+  background: rgb(44, 122, 237);
+  background: linear-gradient(
+    305deg,
+    rgba(44, 122, 237, 1) 0%,
+    rgba(26, 26, 26, 1) 25%,
+    rgba(26, 26, 26, 1) 40%,
+    rgba(44, 122, 237, 1) 60%,
+    rgba(26, 26, 26, 1) 77%
+  );
+  color: rgba(255, 255, 255, 0.87);
 }
 
 h1 {
@@ -27,7 +36,7 @@ h1 {
   line-height: 1.1;
 }
 
-h4{
+h4 {
   font-size: 1.3rem;
 }
 
@@ -36,5 +45,9 @@ p {
 }
 
 a {
-  color: #3e6bff;
+  color: var(--cl-primary);
+}
+
+img {
+  width: 100%;
 }

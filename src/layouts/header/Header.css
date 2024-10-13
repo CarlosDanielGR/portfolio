@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: #ffffff21;
+  padding: 0.5rem;
+  border-radius: 50px;
+}
+
+.header-contact-btn.header-contact-btn {
+  border-radius: 50px;
+  background-color: var(--cl-primary);
+  font-weight: 600;
+  min-width: 50px;
+}

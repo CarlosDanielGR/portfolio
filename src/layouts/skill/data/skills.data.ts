@@ -1,6 +1,6 @@
 import { ISkill } from "./../interfaces/skill.interface";
 
-const URL_ASSETS = "./skill/";
+const URL_ASSETS = "./logos/";
 
 export const SKILLS: ISkill[] = [
   {

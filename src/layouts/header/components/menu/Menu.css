@@ -1,3 +1,13 @@
-.menu-btn.menu-btn{
-    color: #fff;
+.menu-btn.menu-btn {
+  color: #fff;
+}
+
+.menu .css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 250px;
+  padding: 1rem;
+  background-color: var(--bg-primary);
+  color: var(--cl-white);
 }

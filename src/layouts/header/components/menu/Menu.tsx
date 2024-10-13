@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button, Drawer } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import { Logo } from "..";
 import "./Menu.css";
 
 function Menu() {
@@ -15,8 +16,8 @@ function Menu() {
       <Button className="menu-btn" onClick={toggleDrawer(true)}>
         <MenuIcon />
       </Button>
-      <Drawer open={open} onClose={toggleDrawer(false)}>
-        <span>test</span>
+      <Drawer className="menu" open={open} onClose={toggleDrawer(false)}>
+        <Logo text="Carlos Guzmán" />
       </Drawer>
     </>
   );

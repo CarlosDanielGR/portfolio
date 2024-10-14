@@ -1,6 +1,6 @@
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import "./styles/Social.css";
+import "./Social.css";
 
 function Social() {
   return (

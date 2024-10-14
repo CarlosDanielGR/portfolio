@@ -1,4 +1,4 @@
-import { Social } from "..";
+import Social from "@shared/components/social/Social";
 import "./styles/Footer.css";
 
 function Footer() {

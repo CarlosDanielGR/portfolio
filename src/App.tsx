@@ -1,5 +1,4 @@
 import {
-  Social,
   Presentation,
   Title,
   Project,
@@ -14,7 +13,6 @@ function App() {
   return (
     <main className="main">
       <Header />
-      <Social />
       <Title />
       <article className="main-content">
         <section className="main-content-left">

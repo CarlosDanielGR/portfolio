@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Button, Drawer } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Logo } from "..";
+import Social from "@shared/components/social/Social";
+import { Logo, Navbar } from "..";
 import "./Menu.css";
 
 function Menu() {
@@ -18,6 +19,10 @@ function Menu() {
       </Button>
       <Drawer className="menu" open={open} onClose={toggleDrawer(false)}>
         <Logo text="Carlos Guzmán" />
+        <Navbar setOpen={setOpen} isOpen={open} />
+        <div className="menu-social">
+          <Social />
+        </div>
       </Drawer>
     </>
   );

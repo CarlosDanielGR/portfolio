@@ -1,14 +1,23 @@
 .title {
-  margin: 0;
-  color: #646cff;
+  color: var(--cl-primary);
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
 }
+
 .title > span {
-  color: #fff;
+  color: var(--cl-white);
   margin-top: 3.5rem;
-  border-right: 3px solid #646cff;
+  border-right: 3px solid var(--cl-white);
   animation: running typing,
     0.5s step-end 0s infinite alternate none running blink;
 }
+
+.title-name {
+  font-size: 4rem;
+  font-family: porsha;
+  margin: 0;
+}
+
 @keyframes typing {
   0% {
     width: 0;

@@ -1,6 +1,5 @@
 import {
   Presentation,
-  Title,
   Project,
   Employment,
   Skill,
@@ -13,16 +12,15 @@ function App() {
   return (
     <main className="main">
       <Header />
-      <Title />
       <article className="main-content">
         <section className="main-content-left">
           <Presentation />
         </section>
-        <section className="main-content-right">
+        {/* <section className="main-content-right">
           <Skill />
           <Project />
           <Employment />
-        </section>
+        </section> */}
       </article>
       <Footer />
     </main>

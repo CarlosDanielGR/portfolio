@@ -41,19 +41,6 @@ body {
   font-family: euclid;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-h4 {
-  font-size: 1.3rem;
-}
-
-p {
-  margin-top: 0;
-}
-
 a {
   color: var(--cl-primary);
 }

@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./../styles/Navbar.css";
 
 interface NavLink {
   id: number;

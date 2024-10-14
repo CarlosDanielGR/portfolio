@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import { Logo, Menu, Navbar } from "./components";
-import "./Header.css";
+import "./styles/Header.css";
 
 function Header() {
   return (

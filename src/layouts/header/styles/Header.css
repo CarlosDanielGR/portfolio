@@ -1,0 +1,35 @@
+.header {
+  position: sticky;
+  top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: var(--bg-secondary);
+  padding: 0.5rem;
+  border-radius: 50px;
+  z-index: 1000;
+}
+
+.header-contact-btn.header-contact-btn {
+  border-radius: 50px;
+  background-color: var(--cl-primary);
+  font-weight: 600;
+  min-width: 50px;
+}
+
+.header-web {
+  display: none;
+  gap: 10%;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .header-menu {
+    display: none;
+  }
+
+  .header-web {
+    display: flex;
+    flex: 1;
+  }
+}

@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Button, Drawer } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import Social from "@shared/components/social/Social";
-import { Logo, Navbar } from "..";
-import "./Menu.css";
+import { Logo, Navbar } from ".";
+import "./../styles/Menu.css";
 
 function Menu() {
   const [open, setOpen] = useState(false);

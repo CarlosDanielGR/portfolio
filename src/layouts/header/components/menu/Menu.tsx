@@ -18,7 +18,7 @@ function Menu() {
         <MenuIcon />
       </Button>
       <Drawer className="menu" open={open} onClose={toggleDrawer(false)}>
-        <Logo text="Carlos Guzmán" />
+        <Logo />
         <Navbar setOpen={setOpen} isOpen={open} />
         <div className="menu-social">
           <Social />

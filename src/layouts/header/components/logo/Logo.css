@@ -1,7 +1,7 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .logo-img {
@@ -14,4 +14,14 @@ span {
   font-weight: 500;
   white-space: nowrap;
   font-family: var(--font-primary);
+}
+
+@media screen and (min-width: 992px) {
+  .logo-img {
+    max-width: 69px;
+  }
+
+  .logo-img img {
+    border-radius: 50px;
+  }
 }

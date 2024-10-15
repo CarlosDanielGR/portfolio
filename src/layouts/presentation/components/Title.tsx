@@ -4,8 +4,8 @@ function Title() {
   return (
     <>
       <h1 className="title">
-        FULL-STACK WEB
-        <span> DEVELOPER</span>
+        FULL-STACK
+        <span> WEB DEVELOPER</span>
       </h1>
       <h2 className="title-name">Carlos Guzmán</h2>
     </>

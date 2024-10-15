@@ -5,6 +5,7 @@ import {
   Skill,
   Footer,
   Header,
+  AboutMe,
 } from "./layouts";
 import "./App.css";
 
@@ -13,9 +14,8 @@ function App() {
     <main className="main">
       <Header />
       <article className="main-content">
-        <section className="main-content-left">
-          <Presentation />
-        </section>
+        <Presentation />
+        <AboutMe />
         {/* <section className="main-content-right">
           <Skill />
           <Project />

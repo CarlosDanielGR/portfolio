@@ -3,11 +3,8 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-.main-content-right {
-  margin-top: 1rem;
-}
 
-@media screen and (min-width: 900px) {
+/* @media screen and (min-width: 900px) {
   .main-content {
     display: flex;
     gap: 2rem;
@@ -21,4 +18,4 @@
   .main-content-right {
     flex-basis: 55%;
   }
-}
+} */

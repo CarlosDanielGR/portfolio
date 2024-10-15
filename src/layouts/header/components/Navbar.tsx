@@ -16,21 +16,26 @@ function Navbar(props: Partial<Props>) {
   const LINKS: NavLink[] = [
     {
       id: 1,
+      name: "About me",
+      route: "#about-me",
+    },
+    {
+      id: 2,
       name: "Skills",
       route: "#skills",
     },
     {
-      id: 2,
+      id: 3,
       name: "Projects",
       route: "#projects",
     },
     {
-      id: 3,
+      id: 4,
       name: "Employment",
       route: "#employment",
     },
     {
-      id: 4,
+      id: 5,
       name: "Contact",
       route: "#contact",
     },

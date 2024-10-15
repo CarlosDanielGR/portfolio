@@ -1,6 +1,6 @@
 .header {
   position: sticky;
-  top: 1rem;
+  top: 0;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -19,7 +19,7 @@
 
 .header-web {
   display: none;
-  gap: 10%;
+  gap: 3rem;
   align-items: center;
 }
 

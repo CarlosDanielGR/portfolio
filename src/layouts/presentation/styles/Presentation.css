@@ -2,7 +2,31 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin: 2rem 0;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.presentation-figure {
+  position: relative;
+  background-image: url(./../../../../public/images/presentation.jpg);
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.presentation-cv {
+  position: absolute;
+  left: -4rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 992px) {
+  .presentation-figure {
+    width: calc(50vw + 2rem);
+    height: calc(50vw + 2rem);
+  }
 }

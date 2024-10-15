@@ -6,9 +6,13 @@ function Presentation() {
     <div className="presentation">
       <div>
         <Title />
+        <Profile />
       </div>
-      <Profile />
-      <DownloadCV />
+      <div className="presentation-figure">
+        <div className="presentation-cv">
+          <DownloadCV />
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,29 @@
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skill > img {
+  width: 2rem;
+}
+
+.skill > span {
+  font-size: 1.2rem;
+}
+
+.skill-content-levels {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.skill-level {
+  border-radius: 50%;
+  background-color: #ffffffa9;
+  width: 1rem;
+  height: 1rem;
+}
+
+.skill-level-active {
+  background-color: #00eeff;
+}

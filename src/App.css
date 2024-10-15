@@ -4,6 +4,12 @@
   margin: 0 auto;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
 /* @media screen and (min-width: 900px) {
   .main-content {
     display: flex;

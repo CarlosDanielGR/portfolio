@@ -2,10 +2,10 @@ import {
   Presentation,
   Project,
   Employment,
-  Skill,
   Footer,
   Header,
   AboutMe,
+  Skills,
 } from "./layouts";
 import "./App.css";
 
@@ -16,8 +16,8 @@ function App() {
       <article className="main-content">
         <Presentation />
         <AboutMe />
+        <Skills />
         {/* <section className="main-content-right">
-          <Skill />
           <Project />
           <Employment />
         </section> */}

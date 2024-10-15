@@ -1,101 +1,131 @@
-import { ISkill } from "./../interfaces/skill.interface";
+export interface Skill {
+  alt: string;
+  src: string;
+  name: string;
+  level: number;
+}
 
 const URL_ASSETS = "./logos/";
 
-export const SKILLS: ISkill[] = [
+export const SKILLS: Skill[] = [
   {
     alt: "angular",
     src: `${URL_ASSETS}angular.svg`,
-    title: "Angular",
+    name: "Angular",
+    level: 8,
   },
   {
     alt: "nest",
     src: `${URL_ASSETS}nest.svg`,
-    title: "Nestjs",
+    name: "Nestjs",
+    level: 5,
   },
   {
     alt: "javascript",
     src: `${URL_ASSETS}javascript.svg`,
-    title: "JavaScript",
+    name: "JavaScript",
+    level: 8,
   },
   {
     alt: "TypeScript",
     src: `${URL_ASSETS}typescript.svg`,
-    title: "TypeScript",
+    name: "TypeScript",
+    level: 8,
   },
   {
     alt: "react",
     src: `${URL_ASSETS}react.svg`,
-    title: "Reactjs",
+    name: "Reactjs",
+    level: 4,
   },
   {
     alt: "ionic",
     src: `${URL_ASSETS}ionic.svg`,
-    title: "Ionic",
+    name: "Ionic",
+    level: 4,
   },
   {
     alt: "html",
     src: `${URL_ASSETS}html.svg`,
-    title: "HTML",
+    name: "HTML",
+    level: 8,
   },
   {
     alt: "css",
     src: `${URL_ASSETS}css.svg`,
-    title: "CSS",
+    name: "CSS",
+    level: 8,
   },
   {
     alt: "Angular Material",
     src: `${URL_ASSETS}material.svg`,
-    title: "Angular Material",
+    name: "Angular Material",
+    level: 7,
   },
   {
     alt: "mysql",
     src: `${URL_ASSETS}mysql.svg`,
-    title: "MySQL",
+    name: "MySQL",
+    level: 5,
   },
   {
     alt: "postgres",
     src: `${URL_ASSETS}postgres.svg`,
-    title: "Postgres",
+    name: "Postgres",
+    level: 5,
   },
   {
     alt: "docker",
     src: `${URL_ASSETS}docker.svg`,
-    title: "Docker",
+    name: "Docker",
+    level: 3,
   },
   {
     alt: "sass",
     src: `${URL_ASSETS}sass.svg`,
-    title: "Sass",
+    name: "Sass",
+    level: 7,
   },
   {
     alt: "php",
     src: `${URL_ASSETS}php.svg`,
-    title: "php",
+    name: "php",
+    level: 4,
+  },
+  {
+    alt: "laravel",
+    src: `${URL_ASSETS}laravel.svg`,
+    name: "Laravel",
+    level: 4,
   },
   {
     alt: "Java",
     src: `${URL_ASSETS}java.svg`,
-    title: "Java",
+    name: "Java",
+    level: 2,
   },
   {
     alt: "rxjs",
     src: `${URL_ASSETS}rxjs.svg`,
-    title: "Rxjs",
+    name: "Rxjs",
+    level: 7,
   },
   {
     alt: "ngrx",
     src: `${URL_ASSETS}ngrx.svg`,
-    title: "Ngrx",
+    name: "Ngrx",
+    level: 7,
   },
   {
     alt: "tailwind",
     src: `${URL_ASSETS}tailwind.svg`,
-    title: "Tailwind",
+    name: "Tailwind",
+    level: 6,
   },
   {
     alt: "bootstrap",
     src: `${URL_ASSETS}bootstrap.svg`,
-    title: "Bootstrap",
+    name: "Bootstrap",
+    level: 8,
   },
 ];

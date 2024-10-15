@@ -1,0 +1,16 @@
+.skills-title {
+  font-family: porsha;
+  font-size: 4rem;
+  margin: 2rem 0;
+}
+
+.skills-content {
+  display: grid;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .skills-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

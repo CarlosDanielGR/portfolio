@@ -1,4 +1,4 @@
-import { Profile, Title } from ".";
+import { DownloadCV, Profile, Title } from ".";
 import "./styles/Presentation.css";
 
 function Presentation() {
@@ -8,6 +8,7 @@ function Presentation() {
         <Title />
       </div>
       <Profile />
+      <DownloadCV />
     </div>
   );
 }

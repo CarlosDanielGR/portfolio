@@ -1,5 +1,5 @@
-import { Project } from "../../project/interfaces/cardTimeline.interface";
 import { Redirect } from "..";
+import { Project } from "../project.data";
 import "./../styles/CardTimeline.css";
 
 interface Props {
@@ -9,13 +9,16 @@ interface Props {
 function CardTimeline({ cardData }: Props) {
   return (
     <div className="cardTimeline">
-      <span className="cardTimeline-title">{cardData.title}</span>
+      <span className="cardTimeline-title">{cardData.date}</span>
+      <span>{cardData.title}</span>
       <span>{cardData.content}</span>
-      <div className="cardTimeline-redirect">
-        {cardData.redirects.map((data, index) => (
-          <Redirect redirect={data} key={index} />
-        ))}
-      </div>
+      {cardData.repositoryLink ? (
+        <div className="cardTimeline-redirect">
+          <Redirect link={cardData.repositoryLink} />
+        </div>
+      ) : (
+        <></>
+      )}
     </div>
   );
 }

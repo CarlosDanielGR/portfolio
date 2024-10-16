@@ -1,20 +1,34 @@
 .skill {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 450px) {
+  .skill {
+    grid-template-columns: 204px 1fr;
+    margin: 0;
+  }
+}
+
+.skill-name {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.skill > img {
+.skill-name > img {
   width: 2rem;
 }
 
-.skill > span {
+.skill-name > span {
   font-size: 1.2rem;
 }
 
 .skill-content-levels {
   display: flex;
   gap: 0.5rem;
+  align-self: center;
 }
 
 .skill-level {

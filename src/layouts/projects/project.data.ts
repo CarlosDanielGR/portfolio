@@ -1,4 +1,13 @@
-import { Project } from "../interfaces/cardTimeline.interface";
+export interface Project {
+  redirects: Partial<ProjectUrl>[];
+  title: string;
+  content: string;
+}
+
+export interface ProjectUrl {
+  url: string;
+  icon: "git" | "web";
+}
 
 export const PROJECTS: Project[] = [
   {

@@ -1,4 +1,4 @@
-import { PROJECTS } from "../data/project.data";
+import { PROJECTS } from "../project.data";
 import { CardTimeline } from "..";
 import "./../styles/Timeline.css";
 

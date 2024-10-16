@@ -42,7 +42,7 @@ export const SKILLS: Skill[] = [
     alt: "ionic",
     src: `${URL_ASSETS}ionic.svg`,
     name: "Ionic",
-    level: 4,
+    level: 5,
   },
   {
     alt: "html",

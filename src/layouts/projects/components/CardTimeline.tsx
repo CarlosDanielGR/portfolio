@@ -1,4 +1,4 @@
-import { Project } from "../interfaces/cardTimeline.interface";
+import { Project } from "../../project/interfaces/cardTimeline.interface";
 import { Redirect } from "..";
 import "./../styles/CardTimeline.css";
 

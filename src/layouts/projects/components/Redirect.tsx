@@ -1,7 +1,7 @@
 import LaunchIcon from "@mui/icons-material/Launch";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Tooltip from "@mui/material/Tooltip";
-import { ProjectUrl } from "../interfaces/cardTimeline.interface";
+import { ProjectUrl } from "../../project/interfaces/cardTimeline.interface";
 import "./../styles/Redirect.css";
 
 interface Props {

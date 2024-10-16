@@ -9,9 +9,11 @@ interface Props {
 function CardTimeline({ cardData }: Props) {
   return (
     <div className="cardTimeline">
-      <span className="cardTimeline-title">{cardData.date}</span>
-      <span>{cardData.title}</span>
-      <span>{cardData.content}</span>
+      <span className="cardTimeline-date">{cardData.date}</span>
+      <span className="cardTimeline-title">{cardData.title}</span>
+      <span className="cardTimeline-description">
+        {cardData.description} <a>...ver más</a>{" "}
+      </span>
       {cardData.repositoryLink ? (
         <div className="cardTimeline-redirect">
           <Redirect link={cardData.repositoryLink} />

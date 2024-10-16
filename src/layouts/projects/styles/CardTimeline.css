@@ -10,9 +10,19 @@
   margin: 0 1rem 3rem;
 }
 
-.cardTimeline-title {
+.cardTimeline-date {
   color: #bbbbbb;
   font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.cardTimeline-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.cardTimeline-description {
+  font-size: 0.8rem;
 }
 
 .cardTimeline-redirect {

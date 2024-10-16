@@ -4,6 +4,7 @@ export interface Project {
   date: string;
   title: string;
   content: string;
+  description: string;
   technologies: Skill[];
   repositoryLink?: string;
 }
@@ -12,8 +13,37 @@ export const PROJECTS: Project[] = [
   {
     date: "2021 - 2023 (Inlaze)",
     title: "Landing",
-    content:
-      "I crafted a straightforward informational page, highlighting the prominence of native Angular animations during my development phase.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolorem labore accusamus odio nobis, veritatis ut ex iusto? Expedita suscipit vero commodi vel modi maxime iste ea sequi? Eaque, harum!",
+    content: `
+      <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolorem labore accusamus odio nobis, veritatis ut ex iusto? Expedita suscipit vero commodi vel modi maxime iste ea sequi? Eaque, harum!
+      </p>
+      <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolorem labore accusamus odio nobis, veritatis ut ex iusto? Expedita suscipit vero commodi vel modi maxime iste ea sequi? Eaque, harum!
+      </p>
+      <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolorem labore accusamus odio nobis, veritatis ut ex iusto? Expedita suscipit vero commodi vel modi maxime iste ea sequi? Eaque, harum!
+      </p>
+      `,
+    technologies: [SKILLS[0]],
+  },
+  {
+    date: "2021 - 2023 (Inlaze)",
+    title: "Partner",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolorem labore accusamus odio nobis, veritatis ut ex iusto? Expedita suscipit vero commodi vel modi maxime iste ea sequi? Eaque, harum!",
+    content: `
+      <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolorem labore accusamus odio nobis, veritatis ut ex iusto? Expedita suscipit vero commodi vel modi maxime iste ea sequi? Eaque, harum!
+      </p>
+      <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolorem labore accusamus odio nobis, veritatis ut ex iusto? Expedita suscipit vero commodi vel modi maxime iste ea sequi? Eaque, harum!
+      </p>
+      <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolorem labore accusamus odio nobis, veritatis ut ex iusto? Expedita suscipit vero commodi vel modi maxime iste ea sequi? Eaque, harum!
+      </p>
+      `,
     technologies: [SKILLS[0]],
   },
   // {

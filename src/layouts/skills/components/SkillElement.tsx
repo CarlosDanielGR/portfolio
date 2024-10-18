@@ -1,4 +1,4 @@
-import { Skill } from "../skills.data";
+import { Skill } from "@shared/skills.data";
 import "./../styles/Skill.css";
 
 interface Props {

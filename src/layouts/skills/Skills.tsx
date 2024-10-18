@@ -1,5 +1,5 @@
+import { SKILLS, SkillName } from "@shared/skills.data";
 import SkillElement from "./components/SkillElement";
-import { SKILLS, SkillName } from "./skills.data";
 import "./styles/Skills.css";
 
 function Skill() {

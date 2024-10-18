@@ -1,4 +1,4 @@
-import { SKILLS, Skill } from "../skills/skills.data";
+import { SKILLS, Skill } from "@shared/skills.data";
 
 export interface Project {
   date: string;

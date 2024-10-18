@@ -1,0 +1,20 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.5rem 0;
+}
+
+.tag-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  background-color: #393939;
+  border-radius: 0.4rem;
+}
+
+.tag-content > img {
+  width: 2rem;
+  height: 2rem;
+}

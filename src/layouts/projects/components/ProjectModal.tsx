@@ -1,5 +1,6 @@
-import { Box, Button, Modal, Tooltip } from "@mui/material";
+import { Box, Button, Modal } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
+import Tags from "@shared/components/Tags/Tags";
 import { Project } from "../project.data";
 import { Redirect } from "..";
 import "../styles/ProjectModal.css";
@@ -43,15 +44,7 @@ function ProjectModal({ data, open, handleClose }: Props) {
             className="project-modal-content"
             dangerouslySetInnerHTML={{ __html: data.content }}
           ></div>
-          <div className="project-modal-tools">
-            {data.technologies.map((tool, index) => (
-              <Tooltip key={index} title={tool.name} placement="top">
-                <div className="project-modal-tool">
-                  <img src={tool.src} alt={tool.alt} />
-                </div>
-              </Tooltip>
-            ))}
-          </div>
+          <Tags tags={data.technologies} />
           {data.repositoryLink ? (
             <div className="project-modal-redirect">
               <Redirect link={data.repositoryLink} />

@@ -1,4 +1,32 @@
+import { SKILLS } from "@shared/skills.data";
+import Tags from "@shared/components/Tags/Tags";
 import Job from "./components/Job";
+
+const tagsBetenlace = [
+  SKILLS.angular,
+  SKILLS.javascript,
+  SKILLS.typeScript,
+  SKILLS.rxjs,
+  SKILLS.html,
+  SKILLS.css,
+  SKILLS.sass,
+  SKILLS.bootstrap,
+  SKILLS.tailwind,
+  SKILLS.ngrx,
+  SKILLS.ionic,
+];
+
+const tagsInnovating = [
+  SKILLS.angular,
+  SKILLS.javascript,
+  SKILLS.typeScript,
+  SKILLS.rxjs,
+  SKILLS.html,
+  SKILLS.css,
+  SKILLS.sass,
+  SKILLS.bootstrap,
+  SKILLS.material,
+];
 
 function Employment() {
   return (
@@ -31,7 +59,7 @@ function Employment() {
           collaborative working environment, ensuring the success of each
           project and fostering the professional growth of the entire team.
         </p>
-        {/* <Tags tags={TAGS1} /> */}
+        <Tags tags={tagsBetenlace} />
       </Job>
       <Job
         role="Frontend developer"
@@ -51,7 +79,7 @@ function Employment() {
           and user experience. Additionally, I stand out for proposing new ideas
           and innovative solutions to address existing challenges.
         </p>
-        {/* <Tags tags={TAGS2} /> */}
+        <Tags tags={tagsInnovating} />
       </Job>
     </div>
   );

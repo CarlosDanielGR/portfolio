@@ -1,5 +1,5 @@
 import SkillElement from "./components/SkillElement";
-import { SKILLS } from "./skills.data";
+import { SKILLS, SkillName } from "./skills.data";
 import "./styles/Skills.css";
 
 function Skill() {
@@ -8,8 +8,8 @@ function Skill() {
     <div id="skills">
       <h4 className="subtitle">Skills</h4>
       <section className="skills-content">
-        {skills.map((skill, index) => (
-          <SkillElement key={index} skill={skill} />
+        {Object.keys(skills).map((key, index) => (
+          <SkillElement key={index} skill={skills[key as SkillName]} />
         ))}
       </section>
     </div>

@@ -26,15 +26,7 @@ export const PROJECTS: Project[] = [
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolorem labore accusamus odio nobis, veritatis ut ex iusto? Expedita suscipit vero commodi vel modi maxime iste ea sequi? Eaque, harum!
       </p>
       `,
-    technologies: [
-      SKILLS[0],
-      SKILLS[1],
-      SKILLS[2],
-      SKILLS[3],
-      SKILLS[4],
-      SKILLS[5],
-      SKILLS[6],
-    ],
+    technologies: [SKILLS.angular],
     repositoryLink: "http",
   },
   {
@@ -53,7 +45,7 @@ export const PROJECTS: Project[] = [
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolorem labore accusamus odio nobis, veritatis ut ex iusto? Expedita suscipit vero commodi vel modi maxime iste ea sequi? Eaque, harum!
       </p>
       `,
-    technologies: [SKILLS[0]],
+    technologies: [SKILLS.angular],
   },
   // {
   //   title: "2021 - inlaze partner (Inlaze)",

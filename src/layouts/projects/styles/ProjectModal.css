@@ -10,7 +10,7 @@
 }
 
 .project-modal-date {
-  color: #bbbbbb;
+  color: var(--cl-gray);
   font-size: 0.8rem;
 }
 
@@ -24,6 +24,26 @@
 
 .project-modal-content {
   font-size: 0.9rem;
+}
+
+.project-modal-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.5rem 0;
+}
+
+.project-modal-tool {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  background-color: #393939;
+  border-radius: 0.4rem;
+}
+
+.project-modal-tool > img {
+  width: 2rem;
 }
 
 .project-modal-redirect {

@@ -43,6 +43,7 @@ body {
 
 a {
   color: var(--cl-primary);
+  cursor: pointer;
 }
 
 figure {

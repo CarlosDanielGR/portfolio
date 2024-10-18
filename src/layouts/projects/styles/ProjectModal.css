@@ -1,0 +1,21 @@
+.project-modal-date {
+  color: #bbbbbb;
+  font-size: 0.8rem;
+}
+
+.project-modal-title {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--cl-primary);
+}
+
+.project-modal-content {
+  font-size: 0.9rem;
+}
+
+.project-modal-redirect {
+  display: flex;
+  justify-content: flex-end;
+}

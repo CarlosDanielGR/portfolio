@@ -27,6 +27,7 @@ export const PROJECTS: Project[] = [
       </p>
       `,
     technologies: [SKILLS[0]],
+    repositoryLink: "http",
   },
   {
     date: "2021 - 2023 (Inlaze)",

@@ -1,4 +1,5 @@
-import { Box, Modal } from "@mui/material";
+import { Box, Button, Modal } from "@mui/material";
+import CloseIcon from "@mui/icons-material/Close";
 import { Project } from "../project.data";
 import { Redirect } from "..";
 import "../styles/ProjectModal.css";
@@ -18,7 +19,7 @@ const style = {
   bgcolor: "#000",
   border: "2px solid #000",
   boxShadow: 24,
-  p: 4,
+  p: 2,
 };
 
 function ProjectModal({ data, open, handleClose }: Props) {
@@ -31,7 +32,12 @@ function ProjectModal({ data, open, handleClose }: Props) {
     >
       <Box sx={style}>
         <div className="">
-          <span className="project-modal-date">{data.date}</span>
+          <div className="project-modal-head">
+            <span className="project-modal-date">{data.date}</span>
+            <Button variant="text" onClick={handleClose}>
+              <CloseIcon />
+            </Button>
+          </div>
           <span className="project-modal-title">{data.title}</span>
           <div
             className="project-modal-content"

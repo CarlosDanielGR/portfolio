@@ -1,3 +1,14 @@
+.project-modal-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-modal-head > button {
+  color: var(--cl-white);
+  margin-right: -1rem;
+}
+
 .project-modal-date {
   color: #bbbbbb;
   font-size: 0.8rem;

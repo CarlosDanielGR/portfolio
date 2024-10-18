@@ -58,4 +58,9 @@ img {
   * {
     font-size: 14px;
   }
+
+  /* Project modal */
+  .MuiBox-root.MuiBox-root {
+    width: 75%;
+  }
 }

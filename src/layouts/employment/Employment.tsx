@@ -18,7 +18,7 @@ const TAGS2 = ["TypeScript", "Angular", "HTML", "Rxjs", "Angular material"];
 function Employment() {
   return (
     <div id="employment" className="employment">
-      <h4>Employment</h4>
+      <h5 className="subtitle">Employment</h5>
       <div className="employment-title">
         <span className="employment-name">Inlaze (Front-End dev)</span>
         <span className="employment-date">October 2021 - July 2023</span>

@@ -55,6 +55,12 @@ img {
   width: 100%;
 }
 
+.subtitle {
+  font-family: porsha;
+  font-size: 4rem;
+  margin: 2rem 0;
+}
+
 /* Project modal */
 .MuiBox-root.MuiBox-root {
   background-color: var(--bg-primary);

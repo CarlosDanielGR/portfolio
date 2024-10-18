@@ -9,7 +9,7 @@ function AboutMe() {
         alt="about-me"
       />
       <div className="about-me-texts">
-        <h3 className="about-me-title">About me</h3>
+        <h3 className="subtitle">About me</h3>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
           rem, quasi, consectetur adipisci corporis amet perferendis id impedit

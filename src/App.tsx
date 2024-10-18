@@ -18,9 +18,7 @@ function App() {
         <AboutMe />
         <Skills />
         <Projects />
-        {/* <section className="main-content-right">
-          <Employment />
-        </section> */}
+        <Employment />
       </article>
       <Footer />
     </main>

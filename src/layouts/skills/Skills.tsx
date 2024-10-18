@@ -6,7 +6,7 @@ function Skill() {
   const skills = SKILLS;
   return (
     <div id="skills">
-      <h4 className="skills-title">Skills</h4>
+      <h4 className="subtitle">Skills</h4>
       <section className="skills-content">
         {skills.map((skill, index) => (
           <SkillElement key={index} skill={skill} />

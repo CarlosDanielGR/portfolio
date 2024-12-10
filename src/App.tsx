@@ -6,6 +6,7 @@ import {
   AboutMe,
   Skills,
   Projects,
+  Contact,
 } from "./layouts";
 import "./App.css";
 
@@ -19,6 +20,7 @@ function App() {
         <Skills />
         <Projects />
         <Employment />
+        <Contact />
       </article>
       <Footer />
     </main>

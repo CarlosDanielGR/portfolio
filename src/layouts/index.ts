@@ -1,7 +1,7 @@
 export * from "./navbar";
 export * from "./presentation";
 export * from "./social";
-export * from "./title";
+export { default as Title } from "./Title/Title";
 export * from "./project";
 export * from "./employment";
 export * from "./skill";

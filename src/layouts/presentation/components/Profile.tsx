@@ -17,7 +17,7 @@ function Profile() {
         >
           Contact us
         </Button>
-        <Button variant="contained" href="./CV_CDGR.pdf" download="CV_CDGR">
+        <Button variant="contained" href="./fullstack_carlosguzman.pdf" download="cv_carlosguzman">
           Download CV
         </Button>
       </div>

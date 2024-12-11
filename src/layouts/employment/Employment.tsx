@@ -50,7 +50,7 @@ function Employment() {
         <span className="employment-name">
           Innovating Solutions (Front-End dev)
         </span>
-        <span className="employment-date">September 2023 - Present</span>
+        <span className="employment-date">September 2023 - September 2024</span>
       </div>
       <p>
         As a front-end developer, I carry out the updating, correction, and

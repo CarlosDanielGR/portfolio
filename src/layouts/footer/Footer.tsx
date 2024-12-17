@@ -1,5 +1,5 @@
 import Social from "@shared/components/social/Social";
-import "./styles/Footer.css";
+import "./Footer.css";
 
 function Footer() {
   return (

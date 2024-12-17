@@ -2,19 +2,19 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 1rem;
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
-  background-color: #7e7e7e;
+}
+
+.MuiInputBase-root.MuiInputBase-root,
+.MuiInputBase-root.MuiInputBase-root.Mui-focused,
+.MuiInputBase-root.MuiInputBase-root:hover,
+.MuiInputBase-root.MuiInputBase-root:focus {
+  background-color: #fff;
 }
 
 .contact-btn.contact-btn {
   gap: 0.5rem;
   background-color: var(--cl-primary);
 }
-
-/* .contact .MuiInputBase-input {
-  background-color: var(--bg-secondary);
-  color: var(--cl-white);
-} */

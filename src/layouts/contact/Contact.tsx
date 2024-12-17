@@ -9,12 +9,17 @@ function Contact() {
         Contact me
       </h6>
       <form className="contact">
-        <TextField id="filled-basic" label="Filled" variant="filled" />
-        <TextField id="filled-basic" label="Filled" variant="filled" />
+        <TextField
+          id="filled-basic"
+          className="contact__control"
+          label="Email"
+          variant="filled"
+        />
+        <TextField id="filled-basic" label="Subject" variant="filled" />
         <TextField
           id="outlined-textarea"
-          placeholder="Placeholder"
-          label="Multiline Placeholder"
+          label="Message"
+          variant="filled"
           rows={4}
           multiline
         />

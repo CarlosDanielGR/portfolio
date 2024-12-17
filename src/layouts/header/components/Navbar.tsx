@@ -34,11 +34,6 @@ function Navbar(props: Partial<Props>) {
       name: "Employment",
       route: "#employment",
     },
-    {
-      id: 5,
-      name: "Contact",
-      route: "#contact",
-    },
   ];
 
   const toggleDrawer = (newOpen: boolean) => () => {

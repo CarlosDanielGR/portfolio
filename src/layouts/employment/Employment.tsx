@@ -38,46 +38,82 @@ function Employment() {
         date="October 2021 - July 2023"
       >
         <p>
-          Responsible for providing comprehensive support to the company's
-          projects and carrying out the development of new projects from
-          conception to the final implementation phase, my work focused on
-          applying best practices and analysis to ensure optimal performance and
-          proper functioning.
+          As responsible for the integral support of the company's projects, I
+          carried out the development of new projects from their conception to
+          their final implementation. My focus was on applying the best
+          development and analysis practices, ensuring optimal performance and
+          proper operation of the applications.{" "}
         </p>
+        <ul>
+          <li>
+            <strong>Change and standards management</strong>: I supervised and
+            managed changes in projects, ensuring code quality and adapting
+            structures to specific requirements. I defined code standards and
+            established clear guidelines to ensure consistency and efficiency in
+            development.
+          </li>
+          <li>
+            <strong>Technical support and collaboration</strong>: I provided
+            direct support to front-end developers, resolving technical doubts,
+            offering guidance in the implementation of specific features,
+            addressing conflicts in Git and collaborating in debugging bugs. I
+            actively participated in the final deployment process of the
+            projects.
+          </li>
+          <li>
+            <strong>Technical interviews</strong>: I conducted technical
+            interviews to select new front-end developers, evaluating their
+            skills and ensuring that they matched the team's needs and company
+            standards.
+          </li>
+        </ul>
         <p>
-          I supervised and managed changes, ensured code quality, and maintained
-          the appropriate structure for various projects, adapting it to their
-          specific requirements. I defined code standards and necessary
-          structures for each project, establishing clear guidelines to ensure
-          consistency and efficiency in development.
-        </p>
-        <p>
-          Additionally, I provided direct support to front-end developers,
-          resolving doubts, providing guidance on particular features,
-          addressing conflicts in Git, debugging errors, and collaborating in
-          the final deployment process. My goal was to facilitate a smooth and
-          collaborative working environment, ensuring the success of each
-          project and fostering the professional growth of the entire team.
+          My main objective was to facilitate a fluid and collaborative work
+          environment, promoting the professional growth of the team and
+          ensuring the success of each project.
         </p>
         <Tags tags={tagsBetenlace} />
       </Job>
       <Job
         role="Frontend developer"
         company="Innovating Solutions"
-        date="September 2023 - Present"
+        date="September 2023 - September 2024"
       >
         <p>
-          As a front-end developer, I carry out the updating, correction, and
-          creation of new projects, as well as the continuous improvement of
-          code and structure. I dedicate special attention to optimizing
-          existing projects through updating dependencies, standardizing code,
-          and improving application performance through debugging and code
-          optimization.
+          As a front-end developer, I was responsible for updating, correcting
+          and creating new modules, while continuously working on improving the
+          code and structure of the applications. I focused on optimizing
+          existing projects by:{" "}
         </p>
+        <ul>
+          <li>
+            <strong>Code migration</strong>: I transitioned an old project to a
+            new platform, ensuring its proper functioning and rewriting the code
+            based on current standards to ensure scalability and
+            maintainability.
+          </li>
+          <li>
+            <strong>Updating dependencies</strong>: Ensuring that applications
+            were up to date with the latest versions of libraries and
+            frameworks.
+          </li>
+          <li>
+            <strong>Creating reusable components</strong>: Improving efficiency
+            and reducing code duplication. Code standardization: Implementing
+            good development practices and consistent standards across all
+            projects.
+          </li>
+          <li>
+            <strong>Performance optimization</strong>: Through extensive
+            debugging and code tuning to improve the speed and functionality of
+            applications.
+          </li>
+        </ul>
         <p>
-          I seek to perfect every aspect of projects, enhancing both performance
-          and user experience. Additionally, I stand out for proposing new ideas
-          and innovative solutions to address existing challenges.
+          In addition, I provided support to my teammates, solving doubts and
+          collaborating in the solution of technical problems. All this was done
+          in a remote work environment, ensuring effective communication and
+          contributing to the collective success of the team.{" "}
         </p>
         <Tags tags={tagsInnovating} />
       </Job>

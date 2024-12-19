@@ -39,8 +39,8 @@ export const SKILLS: Record<SkillName, Skill> = {
   nest: {
     alt: "nest",
     src: `${URL_ASSETS}nest.svg`,
-    name: "Nestjs",
-    level: 5,
+    name: "NestJS",
+    level: 6,
   },
   javascript: {
     alt: "javascript",
@@ -57,7 +57,7 @@ export const SKILLS: Record<SkillName, Skill> = {
   react: {
     alt: "react",
     src: `${URL_ASSETS}react.svg`,
-    name: "Reactjs",
+    name: "ReactJS",
     level: 4,
   },
   ionic: {
@@ -105,7 +105,7 @@ export const SKILLS: Record<SkillName, Skill> = {
   sass: {
     alt: "sass",
     src: `${URL_ASSETS}sass.svg`,
-    name: "Sass",
+    name: "SASS",
     level: 7,
   },
   php: {
@@ -129,13 +129,13 @@ export const SKILLS: Record<SkillName, Skill> = {
   rxjs: {
     alt: "rxjs",
     src: `${URL_ASSETS}rxjs.svg`,
-    name: "Rxjs",
+    name: "RxJS",
     level: 7,
   },
   ngrx: {
     alt: "ngrx",
     src: `${URL_ASSETS}ngrx.svg`,
-    name: "Ngrx",
+    name: "NgRx",
     level: 7,
   },
   tailwind: {

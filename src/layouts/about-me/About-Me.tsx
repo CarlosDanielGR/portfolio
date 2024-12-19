@@ -11,22 +11,22 @@ function AboutMe() {
       <div className="about-me-texts">
         <h3 className="subtitle">About me</h3>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          rem, quasi, consectetur adipisci corporis amet perferendis id impedit
-          ducimus quaerat nemo? Dignissimos suscipit a ea fuga dolore quisquam
-          voluptates explicabo.
+          Hello! I am a frontend developer with over 3 years of experience
+          specializing in Angular. I focus on building modern, scalable, and
+          high-performance interfaces, applying best practices and efficient
+          design patterns.
         </p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          rem, quasi, consectetur adipisci corporis amet perferendis id impedit
-          ducimus quaerat nemo? Dignissimos suscipit a ea fuga dolore quisquam
-          voluptates explicabo.
+          Additionally, I have experience in backend development with NestJS,
+          which enables me to tackle full-stack projects by integrating robust
+          functionalities such as file handling and complete CRUD operations. I
+          am passionate about technological innovation and enjoy building
+          creative solutions that enhance user experience.
         </p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          rem, quasi, consectetur adipisci corporis amet perferendis id impedit
-          ducimus quaerat nemo? Dignissimos suscipit a ea fuga dolore quisquam
-          voluptates explicabo.
+          Currently, I am looking to join a team that faces complex challenges,
+          where I can continue growing professionally and contribute with clean
+          and efficient code.
         </p>
       </div>
     </section>

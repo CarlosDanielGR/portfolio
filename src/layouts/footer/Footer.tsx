@@ -1,5 +1,5 @@
-import { Social } from "..";
-import "./styles/Footer.css";
+import Social from "@shared/components/social/Social";
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -13,7 +13,9 @@ function Footer() {
           <strong>Email: </strong>
           carlos.d.guzman12@gmail.com
         </span> */}
-        <span>© 2023 carlosdanielgr. All Rights Reserved.</span>
+        <span>
+          © {new Date().getFullYear()} carlosdanielgr. All Rights Reserved.
+        </span>
       </div>
       <Social />
     </footer>

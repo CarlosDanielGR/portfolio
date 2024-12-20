@@ -1,0 +1,41 @@
+.title {
+  color: var(--cl-primary);
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.title > span {
+  font-size: 1.5rem;
+  color: var(--cl-white);
+  border-right: 3px solid var(--cl-white);
+  animation: running typing,
+    0.5s step-end 0s infinite alternate none running blink;
+}
+
+.title-name {
+  font-size: 3rem;
+  font-family: porsha;
+  margin: 1rem 0 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .title,
+  .title > span {
+    font-size: 2rem;
+  }
+
+  .title-name {
+    font-size: 5rem;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

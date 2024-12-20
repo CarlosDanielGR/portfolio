@@ -1,0 +1,29 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.logo-img {
+  max-width: 100px;
+  aspect-ratio: 100/68;
+}
+
+.logo > span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  white-space: nowrap;
+  font-family: var(--font-primary);
+  color: #ffffffa9;
+}
+
+@media screen and (min-width: 992px) {
+  .logo-img {
+    max-width: 69px;
+  }
+
+  .logo-img > img {
+    border-radius: 50px;
+  }
+}

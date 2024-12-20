@@ -1,30 +1,26 @@
 import {
-  Social,
-  Navbar,
   Presentation,
-  Title,
-  Project,
   Employment,
-  Skill,
   Footer,
+  Header,
+  AboutMe,
+  Skills,
+  Projects,
+  Contact,
 } from "./layouts";
 import "./App.css";
 
 function App() {
   return (
     <main className="main">
-      <Social />
-      <Title />
+      <Header />
       <article className="main-content">
-        <section className="main-content-left">
-          <Presentation />
-          <Navbar />
-        </section>
-        <section className="main-content-right">
-          <Skill />
-          <Project />
-          <Employment />
-        </section>
+        <Presentation />
+        <AboutMe />
+        <Skills />
+        <Projects />
+        <Employment />
+        <Contact />
       </article>
       <Footer />
     </main>

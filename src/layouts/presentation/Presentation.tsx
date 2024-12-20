@@ -1,11 +1,18 @@
-import { Hello, Profile } from ".";
+import { DownloadCV, Profile, Title } from ".";
 import "./styles/Presentation.css";
 
 function Presentation() {
   return (
     <div className="presentation">
-      <Hello />
-      <Profile />
+      <div>
+        <Title />
+        <Profile />
+      </div>
+      <div className="presentation-figure">
+        <div className="presentation-cv">
+          <DownloadCV />
+        </div>
+      </div>
     </div>
   );
 }

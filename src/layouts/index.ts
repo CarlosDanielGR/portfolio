@@ -1,8 +1,8 @@
-export * from "./navbar";
+export * from "./header";
 export * from "./presentation";
-export * from "./social";
-export { default as Title } from "./Title/Title";
-export * from "./project";
-export * from "./employment";
-export * from "./skill";
+export { default as AboutMe } from "./about-me/About-Me";
+export { default as Skills } from "./skills/Skills";
+export { default as Projects } from "./projects/Projects";
+export { default as Employment } from "./employment/Employment";
+export { default as Contact } from "./contact/Contact";
 export * from "./footer";

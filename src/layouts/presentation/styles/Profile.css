@@ -1,12 +1,5 @@
 .profile {
-  flex-basis: 40%;
-}
-.profile > h3 {
-  font-size: 1.1rem;
-  font-weight: 500;
-}
-.profile-buttons {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+  border-left: 1px solid #ababab;
+  padding-left: 1rem;
+  max-width: 280px;
 }

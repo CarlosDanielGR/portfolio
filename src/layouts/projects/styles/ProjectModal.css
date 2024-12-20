@@ -1,0 +1,32 @@
+.project-modal-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-modal-head > button {
+  color: var(--cl-white);
+  margin-right: -1rem;
+}
+
+.project-modal-date {
+  color: var(--cl-gray);
+  font-size: 0.8rem;
+}
+
+.project-modal-title {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--cl-primary);
+}
+
+.project-modal-content {
+  font-size: 0.9rem;
+}
+
+.project-modal-redirect {
+  display: flex;
+  justify-content: flex-end;
+}

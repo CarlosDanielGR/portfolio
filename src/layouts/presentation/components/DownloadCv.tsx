@@ -5,7 +5,11 @@ import "./../styles/DownloadCv.css";
 function DownloadCv() {
   return (
     <div className="downloadCv">
-      <Button variant="contained" href="./CV_CDGR.pdf" download="CV_CDGR">
+      <Button
+        variant="contained"
+        href="./fullstack_carlosguzman.pdf"
+        download="fullstack_carlosguzman"
+      >
         <DownloadForOfflineIcon /> CV
       </Button>
     </div>

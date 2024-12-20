@@ -5,7 +5,7 @@ function AboutMe() {
     <section id="about-me" className="about-me">
       <img
         className="about-me-img"
-        src="./public/images/about-me.jpg"
+        src="./images/about-me.jpg"
         alt="about-me"
       />
       <div className="about-me-texts">

@@ -25,7 +25,8 @@ export type SkillName =
   | "rxjs"
   | "ngrx"
   | "tailwind"
-  | "bootstrap";
+  | "bootstrap"
+  | "mongo";
 
 const URL_ASSETS = "./logos/";
 
@@ -34,7 +35,7 @@ export const SKILLS: Record<SkillName, Skill> = {
     alt: "angular",
     src: `${URL_ASSETS}angular.svg`,
     name: "Angular",
-    level: 8,
+    level: 9,
   },
   nest: {
     alt: "nest",
@@ -58,13 +59,13 @@ export const SKILLS: Record<SkillName, Skill> = {
     alt: "react",
     src: `${URL_ASSETS}react.svg`,
     name: "ReactJS",
-    level: 5,
+    level: 6,
   },
   ionic: {
     alt: "ionic",
     src: `${URL_ASSETS}ionic.svg`,
     name: "Ionic",
-    level: 5,
+    level: 6,
   },
   html: {
     alt: "html",
@@ -88,13 +89,19 @@ export const SKILLS: Record<SkillName, Skill> = {
     alt: "mysql",
     src: `${URL_ASSETS}mysql.svg`,
     name: "MySQL",
-    level: 6,
+    level: 8,
   },
   postgres: {
     alt: "postgres",
     src: `${URL_ASSETS}postgres.svg`,
     name: "Postgres",
     level: 7,
+  },
+  mongo: {
+    alt: "mongo",
+    src: `${URL_ASSETS}mongodb.svg`,
+    name: "MongoDB",
+    level: 6,
   },
   docker: {
     alt: "docker",

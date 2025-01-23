@@ -7,6 +7,7 @@ export interface Project {
   description: string;
   technologies: Skill[];
   repositoryLink?: string;
+  pageLink?: string;
 }
 
 export const PROJECTS: Project[] = [
@@ -38,6 +39,7 @@ export const PROJECTS: Project[] = [
       SKILLS.docker,
     ],
     repositoryLink: "https://github.com/carlosdanielgr/invien",
+    pageLink: "https://invien.mx/es/",
   },
   {
     date: "11/2024 - 11/2024 (Personal)",
@@ -66,6 +68,30 @@ export const PROJECTS: Project[] = [
     repositoryLink: "https://github.com/carlosdanielgr/marvel",
   },
   {
+    date: "09/2024 - 10/2024 (Freelance)",
+    title: "MJ-page",
+    description:
+      "The personal page is designed to offer content related to yoga exercises.",
+    content: `
+    <p>
+      The personal page is designed to offer content related to yoga exercises, with a focus on marketing both video tutorials and exclusive branded products.
+    </p>
+    <p>
+      Through this platform, users can browse and request any available product, being redirected directly to a personal chat for personalized attention.
+    </p>
+    <p>
+      In addition, the site includes a form that facilitates the request of additional information and an email subscription system that allows users to keep abreast of news and updates related to the products and services offered.
+    </p>
+    `,
+    technologies: [
+      SKILLS.angular,
+      SKILLS.sass,
+      SKILLS.bootstrap,
+      SKILLS.nodejs,
+    ],
+    pageLink: "https://mirellajaramilloc.com/",
+  },
+  {
     date: "08/2024 - 10/2024 (Freelance)",
     title: "wallprint",
     description:
@@ -81,6 +107,7 @@ export const PROJECTS: Project[] = [
     technologies: [SKILLS.angular, SKILLS.sass, SKILLS.bootstrap],
     repositoryLink: "https://github.com/carlosdanielgr/wallprint",
   },
+
   {
     date: "09/2023 - 09/2024 (Innovating solutions)",
     title: "ateneo",
@@ -132,6 +159,7 @@ export const PROJECTS: Project[] = [
     `,
     technologies: [SKILLS.angular, SKILLS.sass, SKILLS.bootstrap],
     repositoryLink: "https://github.com/carlosdanielgr/nomadas-media",
+    pageLink: "https://nomadasmedia.com/",
   },
   {
     date: "03/2024 - 04/2024 (Freelance)",
@@ -147,6 +175,7 @@ export const PROJECTS: Project[] = [
     `,
     technologies: [SKILLS.angular, SKILLS.sass, SKILLS.bootstrap],
     repositoryLink: "https://github.com/carlosdanielgr/resolve-insurance",
+    pageLink: "https://resuelvetuseguro.mx/",
   },
   {
     date: "03/2024 - 03/2024 (Freelance)",
@@ -166,6 +195,7 @@ export const PROJECTS: Project[] = [
     `,
     technologies: [SKILLS.angular, SKILLS.sass, SKILLS.bootstrap],
     repositoryLink: "https://github.com/carlosdanielgr/actus",
+    pageLink: "https://elena.actus.io/",
   },
   {
     date: "05/2023 - 07/2023 (Inlaze)",
@@ -189,6 +219,7 @@ export const PROJECTS: Project[] = [
       SKILLS.bootstrap,
       SKILLS.tailwind,
     ],
+    pageLink: "https://jobs.inlaze.com/?theme=dark",
   },
   {
     date: "02/2023 - 03/2023 (Inlaze)",
@@ -231,6 +262,7 @@ export const PROJECTS: Project[] = [
       SKILLS.bootstrap,
       SKILLS.tailwind,
     ],
+    pageLink: "https://affiliates.inlaze.com/es/login",
   },
   {
     date: "10/2021 - 07/2023 (Inlaze)",
@@ -246,5 +278,6 @@ export const PROJECTS: Project[] = [
     </p>
     `,
     technologies: [SKILLS.angular, SKILLS.sass, SKILLS.bootstrap],
+    pageLink: "https://inlaze.com/es/",
   },
 ];
